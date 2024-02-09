@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(27,27,27);
+    background-image: url('../images/Background.png');
+    /*Background image is from: https://www.reddit.com/r/Guiltygear/comments/dye561/last_wallpaper_for_the_day_axl/ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    font-family: 'Rowdies', sans-serif;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 65%;
+    color: rgb(185, 46, 51);
+}
+.backgroundFont{
+    font-family: 'Protest Guerrilla', sans-serif;
+    color: rgb(104, 99, 106);
+    font-size: small;
+}
+.frozenStillFont, span.frozenStillFont{
+    font-family: 'Rubik Glitch Pop', system-ui;
+    font-size: large;
+    color: rgb(96, 189, 255);
+    font-weight: bold;
+}
+.yellingFont, span.yellingFont{
+    font-family: 'Black And White Picture', system-ui;
+    font-weight: bolder;
+    color: silver;
+    transform: rotate(-3deg);
+    font-size: x-large;
+}
+.dramaticFont{
+    font-family: 'Whisper', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+header{
+    padding: 1%;
+    margin: 1%;
+    background-color: black;
+    border-radius: 15px;
+}
+#verse-1, #verse-2, #bridge{
+    padding: 1%;
+    margin: 1%;
+    margin-bottom: 5%;
+    background-color: black;
+    border-radius: 15px;
+    transform: rotate(-2deg);
+}
+.pre-chorus{
+    padding: 1%;
+    margin: 1%;
+    margin-bottom: 5%;
+    background-color: black;
+    border-radius: 15px;
+    transform: rotate(2deg);
+}
+.chorus{
+    padding: 1%;
+    margin: 1%;
+    margin-bottom: 5%;
+    background-color: black;
+    border-radius: 15px;
+}
